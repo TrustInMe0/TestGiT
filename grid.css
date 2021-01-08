@@ -1,0 +1,11 @@
+.grid-container{
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-template-rows: 120px 50px auto 50px;
+gap 0px 0px;
+grid-template-areas: 
+"header header header header"
+"navigator navigator navigator navigator"
+"left left right right"
+"footer footer footer footer"
+}
